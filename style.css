@@ -1,0 +1,144 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+body {
+  padding: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+#heading {
+  margin: 20px 0;
+  clear: both;
+}
+
+/* images */
+
+.images {
+  width: 100vw - 20px;
+}
+
+img {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.textunderimage {
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+
+.bigtext {
+  padding-top: 30px;
+}
+
+#left {
+  float: left;
+
+  font-size: 1.4em;
+}
+
+#info {
+  float: right;
+
+  font-size: 1.4em;
+}
+
+/* nav */
+nav {
+  border-bottom: black solid 2px;
+}
+
+/* list */
+
+#inanyigit {
+  float: left;
+}
+
+#contact {
+  float: right;
+}
+
+#email {
+  clear: both;
+  float: right;
+}
+
+#number {
+  clear: both;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+  letter-spacing: -0.25px;
+}
+
+/* about */
+
+.about {
+  margin-top: 50px;
+  font-size: 1.4em;
+  /* letter-spacing: -0.25px; */
+  clear: both;
+  /* line-height: 34px; */
+}
+
+.socialmedia {
+  font-size: 1.6em;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+#socialmedia {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+/* instagram */
+
+a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+#top {
+  float: right;
+  font-size: 1.6em;
+  padding-bottom: 15px;
+}
+
+p {
+  display: block;
+  clear: both;
+  font-size: 1.6em;
+}
+
+/* collumn */
+
+@media screen and (min-width: 900px) {
+  .about {
+    width: 60vw;
+    border-right: black solid 2px;
+    padding-right: 50px;
+    font-size: 1.8em;
+  }
+  .images {
+    width: 60vw;
+  }
+}
